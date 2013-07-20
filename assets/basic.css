@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(http://cdn.dcodes.net/backgrounds/u_background/bg_p2__15.png);
+    background-size: auto;
+    background-position: 50% 0px;
+    background-repeat: repeat repeat;
+}
+header {
+    background: #aaa url('bg.png') 0 -5px repeat-x;
+    margin-bottom: 50px;
+}
+h1 {
+    margin: 0;
+    padding: 10px 0 0 100px;
+    color: #fff;
+}
+.title-image {
+    padding: 10px;
+    position: relative;
+    bottom: -50px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.title-image img {
+    margin: 0 15px;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 2px #888;
+}
+.videos form {
+    margin: 20px;
+}
+.news ul {
+    padding: 0;
+    padding-right: 10px;
+}
+li {
+    list-style-type: none;
+}
+.videos li {
+    width: 45%;
+    display: inline-block;
+    padding-left: 20px;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+a:hover {
+    color: #d85661;
+}
